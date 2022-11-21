@@ -12,7 +12,7 @@ export CPATH=$CONDA_PREFIX/include/python3.10
 
 ```
 cd src
-python setup.py install
+python setup.py build -g install
 python myscript.py
 ```
 
